@@ -86,5 +86,6 @@ public class TaskCLI implements CommandLineRunner {
             default:
                 System.out.println("Invalid action");
         }
+        System.exit(0);
     }
 }
